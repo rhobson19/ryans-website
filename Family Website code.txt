@@ -1,0 +1,44 @@
+echo "# COVID-19-Family-Website" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/rhobson19/COVID-19-Family-Website.git
+git push -u origin master
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Family Website</title>
+  <style>
+    #page-body {background-color:skyblue}
+    #first-paragraph {background-color:}
+  </style>
+</head>
+<body id="page-body">
+  <h id="heading1"><em><b> Welcome to Your first Family Web Experience</p>
+    <br></em></b>
+  <img src="https://media-exp1.licdn.com/dms/image/C5603AQH7xdNChR71RQ/profile-displayphoto-shrink_100_100/0?e=1592438400&v=beta&t=UGt1xr645jG3v_6Lji4TSsyADY8yv-1cbHuutcGoA_E" alt="https://www.facebook.com/photo.php?fbid=112359133408979&set=a.102908191020740&type=3&source=11&referrer_profile_id=100039046777808"
+       </img><br>
+       <p id="beginning-p1"> I have started developing websites in my spare time. I thought It would be fun to create this website as a project. The intentions are to be able to keep up to date with eachothers health and well being. Thanks for participating!</p>
+  <br>
+  <form> 
+    first name <input>
+    <br>
+    last name  <input><br>
+    birth date <input><br>
+    cell-phone# <input><br>
+    <input type="radio" id="family" name="relationship" value="family">
+    <label for="family">Family</label><br>
+    <input type="radio" id="friend" name="relationship" value="family">
+    <label for="family">Friend</label><br>
+    <br>
+    <input type="submit">
+    
+    <br>
+  </form>
+
+</body>
+</html>
+                
